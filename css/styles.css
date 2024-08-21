@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; 
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    color: black;
+    cursor: default;
+}
+.navigation a{
+    font-size: 1.1em;
+    color: gray;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+
+}
+.navigation a:hover{
+    color: black;
+}
+.btn-talk{
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: darkslategrey;
+    border-radius: 10px;
+    border:2px solid;
+    font-weight: 500;
+    
+}
+.btn-talk:hover{
+    color: black;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('dash.jpg');
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+.content{
+    max-width: 500px;
+    color: black;
+}
+.content h2{
+    font-size: 3em;
+}
+.content p{
+    padding: 10px 0 40px 0;
+}
+.btn-group a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: violet;
+    border-radius: 10px;
+    border: 2px solid violet;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:nth-child(2){
+    color: violet;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+
+}
+.btn-group a:hover:nth-child(2){
+    color: white;
+    background: violet;
+
+}
+img{
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    right: 250px;
+    top: 220px;
+
+}
+.img1 img{
+    width: 5px;
+    height: 5px;
+}
+.img2 img{
+    width: 5px;
+    height: 5px;
+}
+.img3 img{
+    width: 1px;
+    height: 1px;
+}
+
+.home-social{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+
+}
+.home-social a:hover{
+    color: blue;
+}
+.content p{
+    padding: 10px 0 40px 0;
+    text-align: left;  
+}
